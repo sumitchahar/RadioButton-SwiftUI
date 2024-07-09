@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95D9960F2C3D2D0A005FA1AD /* RadioButtonTabSelectionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D9960E2C3D2D0A005FA1AD /* RadioButtonTabSelectionApp.swift */; };
+		95D996112C3D2D0A005FA1AD /* RadioButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D996102C3D2D0A005FA1AD /* RadioButtonView.swift */; };
+		95D996132C3D2D0E005FA1AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95D996122C3D2D0E005FA1AD /* Assets.xcassets */; };
+		95D996162C3D2D0E005FA1AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95D996152C3D2D0E005FA1AD /* Preview Assets.xcassets */; };
+		95D996202C3D2D0E005FA1AD /* RadioButtonTabSelectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D9961F2C3D2D0E005FA1AD /* RadioButtonTabSelectionTests.swift */; };
+		95D9962A2C3D2D0E005FA1AD /* RadioButtonTabSelectionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D996292C3D2D0E005FA1AD /* RadioButtonTabSelectionUITests.swift */; };
+		95D9962C2C3D2D0E005FA1AD /* RadioButtonTabSelectionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D9962B2C3D2D0E005FA1AD /* RadioButtonTabSelectionUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95D9961C2C3D2D0E005FA1AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95D996032C3D2D0A005FA1AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95D9960A2C3D2D0A005FA1AD;
+			remoteInfo = RadioButtonTabSelection;
+		};
+		95D996262C3D2D0E005FA1AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95D996032C3D2D0A005FA1AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95D9960A2C3D2D0A005FA1AD;
+			remoteInfo = RadioButtonTabSelection;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		95D9960B2C3D2D0A005FA1AD /* RadioButtonTabSelection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RadioButtonTabSelection.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95D9960E2C3D2D0A005FA1AD /* RadioButtonTabSelectionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButtonTabSelectionApp.swift; sourceTree = "<group>"; };
+		95D996102C3D2D0A005FA1AD /* RadioButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButtonView.swift; sourceTree = "<group>"; };
+		95D996122C3D2D0E005FA1AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95D996152C3D2D0E005FA1AD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		95D9961B2C3D2D0E005FA1AD /* RadioButtonTabSelectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RadioButtonTabSelectionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95D9961F2C3D2D0E005FA1AD /* RadioButtonTabSelectionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButtonTabSelectionTests.swift; sourceTree = "<group>"; };
+		95D996252C3D2D0E005FA1AD /* RadioButtonTabSelectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RadioButtonTabSelectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95D996292C3D2D0E005FA1AD /* RadioButtonTabSelectionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButtonTabSelectionUITests.swift; sourceTree = "<group>"; };
+		95D9962B2C3D2D0E005FA1AD /* RadioButtonTabSelectionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButtonTabSelectionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95D996082C3D2D0A005FA1AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95D996182C3D2D0E005FA1AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95D996222C3D2D0E005FA1AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95D996022C3D2D0A005FA1AD = {
+			isa = PBXGroup;
+			children = (
+				95D9960D2C3D2D0A005FA1AD /* RadioButtonTabSelection */,
+				95D9961E2C3D2D0E005FA1AD /* RadioButtonTabSelectionTests */,
+				95D996282C3D2D0E005FA1AD /* RadioButtonTabSelectionUITests */,
+				95D9960C2C3D2D0A005FA1AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95D9960C2C3D2D0A005FA1AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95D9960B2C3D2D0A005FA1AD /* RadioButtonTabSelection.app */,
+				95D9961B2C3D2D0E005FA1AD /* RadioButtonTabSelectionTests.xctest */,
+				95D996252C3D2D0E005FA1AD /* RadioButtonTabSelectionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95D9960D2C3D2D0A005FA1AD /* RadioButtonTabSelection */ = {
+			isa = PBXGroup;
+			children = (
+				95D9960E2C3D2D0A005FA1AD /* RadioButtonTabSelectionApp.swift */,
+				95D996102C3D2D0A005FA1AD /* RadioButtonView.swift */,
+				95D996122C3D2D0E005FA1AD /* Assets.xcassets */,
+				95D996142C3D2D0E005FA1AD /* Preview Content */,
+			);
+			path = RadioButtonTabSelection;
+			sourceTree = "<group>";
+		};
+		95D996142C3D2D0E005FA1AD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				95D996152C3D2D0E005FA1AD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		95D9961E2C3D2D0E005FA1AD /* RadioButtonTabSelectionTests */ = {
+			isa = PBXGroup;
+			children = (
+				95D9961F2C3D2D0E005FA1AD /* RadioButtonTabSelectionTests.swift */,
+			);
+			path = RadioButtonTabSelectionTests;
+			sourceTree = "<group>";
+		};
+		95D996282C3D2D0E005FA1AD /* RadioButtonTabSelectionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				95D996292C3D2D0E005FA1AD /* RadioButtonTabSelectionUITests.swift */,
+				95D9962B2C3D2D0E005FA1AD /* RadioButtonTabSelectionUITestsLaunchTests.swift */,
+			);
+			path = RadioButtonTabSelectionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95D9960A2C3D2D0A005FA1AD /* RadioButtonTabSelection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95D9962F2C3D2D0E005FA1AD /* Build configuration list for PBXNativeTarget "RadioButtonTabSelection" */;
+			buildPhases = (
+				95D996072C3D2D0A005FA1AD /* Sources */,
+				95D996082C3D2D0A005FA1AD /* Frameworks */,
+				95D996092C3D2D0A005FA1AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RadioButtonTabSelection;
+			productName = RadioButtonTabSelection;
+			productReference = 95D9960B2C3D2D0A005FA1AD /* RadioButtonTabSelection.app */;
+			productType = "com.apple.product-type.application";
+		};
+		95D9961A2C3D2D0E005FA1AD /* RadioButtonTabSelectionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95D996322C3D2D0E005FA1AD /* Build configuration list for PBXNativeTarget "RadioButtonTabSelectionTests" */;
+			buildPhases = (
+				95D996172C3D2D0E005FA1AD /* Sources */,
+				95D996182C3D2D0E005FA1AD /* Frameworks */,
+				95D996192C3D2D0E005FA1AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95D9961D2C3D2D0E005FA1AD /* PBXTargetDependency */,
+			);
+			name = RadioButtonTabSelectionTests;
+			productName = RadioButtonTabSelectionTests;
+			productReference = 95D9961B2C3D2D0E005FA1AD /* RadioButtonTabSelectionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		95D996242C3D2D0E005FA1AD /* RadioButtonTabSelectionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95D996352C3D2D0E005FA1AD /* Build configuration list for PBXNativeTarget "RadioButtonTabSelectionUITests" */;
+			buildPhases = (
+				95D996212C3D2D0E005FA1AD /* Sources */,
+				95D996222C3D2D0E005FA1AD /* Frameworks */,
+				95D996232C3D2D0E005FA1AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95D996272C3D2D0E005FA1AD /* PBXTargetDependency */,
+			);
+			name = RadioButtonTabSelectionUITests;
+			productName = RadioButtonTabSelectionUITests;
+			productReference = 95D996252C3D2D0E005FA1AD /* RadioButtonTabSelectionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95D996032C3D2D0A005FA1AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					95D9960A2C3D2D0A005FA1AD = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					95D9961A2C3D2D0E005FA1AD = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 95D9960A2C3D2D0A005FA1AD;
+					};
+					95D996242C3D2D0E005FA1AD = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 95D9960A2C3D2D0A005FA1AD;
+					};
+				};
+			};
+			buildConfigurationList = 95D996062C3D2D0A005FA1AD /* Build configuration list for PBXProject "RadioButtonTabSelection" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95D996022C3D2D0A005FA1AD;
+			productRefGroup = 95D9960C2C3D2D0A005FA1AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95D9960A2C3D2D0A005FA1AD /* RadioButtonTabSelection */,
+				95D9961A2C3D2D0E005FA1AD /* RadioButtonTabSelectionTests */,
+				95D996242C3D2D0E005FA1AD /* RadioButtonTabSelectionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95D996092C3D2D0A005FA1AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95D996162C3D2D0E005FA1AD /* Preview Assets.xcassets in Resources */,
+				95D996132C3D2D0E005FA1AD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95D996192C3D2D0E005FA1AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95D996232C3D2D0E005FA1AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95D996072C3D2D0A005FA1AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95D996112C3D2D0A005FA1AD /* RadioButtonView.swift in Sources */,
+				95D9960F2C3D2D0A005FA1AD /* RadioButtonTabSelectionApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95D996172C3D2D0E005FA1AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95D996202C3D2D0E005FA1AD /* RadioButtonTabSelectionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95D996212C3D2D0E005FA1AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95D9962A2C3D2D0E005FA1AD /* RadioButtonTabSelectionUITests.swift in Sources */,
+				95D9962C2C3D2D0E005FA1AD /* RadioButtonTabSelectionUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95D9961D2C3D2D0E005FA1AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95D9960A2C3D2D0A005FA1AD /* RadioButtonTabSelection */;
+			targetProxy = 95D9961C2C3D2D0E005FA1AD /* PBXContainerItemProxy */;
+		};
+		95D996272C3D2D0E005FA1AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95D9960A2C3D2D0A005FA1AD /* RadioButtonTabSelection */;
+			targetProxy = 95D996262C3D2D0E005FA1AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		95D9962D2C3D2D0E005FA1AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		95D9962E2C3D2D0E005FA1AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95D996302C3D2D0E005FA1AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RadioButtonTabSelection/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KLM.RadioButtonTabSelection;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95D996312C3D2D0E005FA1AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RadioButtonTabSelection/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KLM.RadioButtonTabSelection;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		95D996332C3D2D0E005FA1AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KLM.RadioButtonTabSelectionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RadioButtonTabSelection.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RadioButtonTabSelection";
+			};
+			name = Debug;
+		};
+		95D996342C3D2D0E005FA1AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KLM.RadioButtonTabSelectionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RadioButtonTabSelection.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RadioButtonTabSelection";
+			};
+			name = Release;
+		};
+		95D996362C3D2D0E005FA1AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KLM.RadioButtonTabSelectionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RadioButtonTabSelection;
+			};
+			name = Debug;
+		};
+		95D996372C3D2D0E005FA1AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KLM.RadioButtonTabSelectionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RadioButtonTabSelection;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95D996062C3D2D0A005FA1AD /* Build configuration list for PBXProject "RadioButtonTabSelection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95D9962D2C3D2D0E005FA1AD /* Debug */,
+				95D9962E2C3D2D0E005FA1AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95D9962F2C3D2D0E005FA1AD /* Build configuration list for PBXNativeTarget "RadioButtonTabSelection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95D996302C3D2D0E005FA1AD /* Debug */,
+				95D996312C3D2D0E005FA1AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95D996322C3D2D0E005FA1AD /* Build configuration list for PBXNativeTarget "RadioButtonTabSelectionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95D996332C3D2D0E005FA1AD /* Debug */,
+				95D996342C3D2D0E005FA1AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95D996352C3D2D0E005FA1AD /* Build configuration list for PBXNativeTarget "RadioButtonTabSelectionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95D996362C3D2D0E005FA1AD /* Debug */,
+				95D996372C3D2D0E005FA1AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95D996032C3D2D0A005FA1AD /* Project object */;
+}
